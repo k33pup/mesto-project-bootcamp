@@ -1,0 +1,22 @@
+.header {
+    width: var(--page-width);
+    margin: 45px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        margin: 28px 0 42px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        width: 100%;
+    }
+}
