@@ -10,3 +10,5 @@
 * HTML
 * CSS
 * Figma
+
+* Github Pages: https://k33pup.github.io/mesto-project-bootcamp/
