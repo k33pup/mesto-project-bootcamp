@@ -1,0 +1,7 @@
+.element__description {
+  margin: 20px auto 25px;
+  max-width: 246px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

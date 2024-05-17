@@ -1,0 +1,28 @@
+.popup_edit__close {
+  right: 0;
+  top: -30px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border: 0;
+  padding: 0;
+  background-image: url(../../../images/popup_close.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  z-index: 2;
+}
+
+.popup_edit__close:hover {
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 768px) {
+  .popup_edit__close { 
+    right: -28px;
+    top: -28px;
+  }
+}
+

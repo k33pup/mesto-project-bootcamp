@@ -1,0 +1,17 @@
+.popup_edit__container {
+  margin: auto;
+  padding: 25px 22px;
+  max-width: 282px;
+  position: relative;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .popup_edit__container {
+    padding: 34px 36px;
+    max-width: 430px;
+  }
+}

@@ -1,7 +1,11 @@
 .page {
-    background-color: var(--bg-black);
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  max-width: 100%;
+  background-color: black;
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    margin: 0 auto;
+    max-width: 880px;
+  }
 }
