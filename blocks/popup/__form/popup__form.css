@@ -1,10 +1,11 @@
-.popup_edit__form {
+.popup__form {
   margin-top: 75px;
   display: block;
+  height: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .popup_edit__form {
+  .popup__form {
     margin-top: 54px;
   }
 }

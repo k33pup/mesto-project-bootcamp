@@ -1,4 +1,4 @@
-.popup_edit {
+.popup {
   right: 0;
   left: 0;
   top: 0;
@@ -9,8 +9,4 @@
   align-items: center;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-.popup_opened {
-  display: flex;
 }

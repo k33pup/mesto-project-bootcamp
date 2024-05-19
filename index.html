@@ -8,11 +8,11 @@
 </head>
 <body class="page">
   <header class="header">
-    <img class="header__logo" src="./images/header_logo.svg" alt="Logo">
+    <img class="header__logo" src="./images/header_logo.svg" alt="Лого">
   </header>
   <main class="content">
     <section class="profile">
-      <img class="profile__avatar" src="./images/profile_avatar.svg" alt="Zhak">
+      <img class="profile__avatar" src="./images/profile_avatar.svg" alt="Жак">
       <div class="profile__info">
         <div class="profile__line">
           <h1 class="profile__title">Жак-Ив Кусто</h1>
@@ -20,47 +20,47 @@
         </div>
         <p class="profile__description">Исследователь океана</p>
       </div>
-      <button class="profile__add"></button>
+      <button type="button" class="profile__add"></button>
     </section>
     <section class="elements">
       <ul class="elements__list">
         <li class="element">
-          <img class="element__image" src="./images/karachaevsk.png" alt="Photo 1">
+          <img class="element__image" src="./images/karachaevsk.png" alt="Фото 1">
           <div class="element__description">
             <h2 class="element__title">Карачаевск</h2>
             <button type="button" class="element__like"></button>
           </div>
         </li>
         <li class="element">
-          <img class="element__image" src="./images/elbrus.png" alt="Photo 2">
+          <img class="element__image" src="./images/elbrus.png" alt="Фото 2">
           <div class="element__description">
             <h2 class="element__title">Эльбрус</h2>
             <button type="button" class="element__like"></button>
           </div>
         </li>
         <li class="element">
-          <img class="element__image" src="./images/dombai.svg" alt="Photo 3">
+          <img class="element__image" src="./images/dombai.svg" alt="Фото 3">
           <div class="element__description">
             <h2 class="element__title">Домбай</h2>
             <button type="button" class="element__like"></button>
           </div>
         </li>
         <li class="element">
-          <img class="element__image" src="./images/elbrus.png" alt="Photo 4">
+          <img class="element__image" src="./images/elbrus.png" alt="Фото 4">
           <div class="element__description">
             <h2 class="element__title">Эльбрус</h2>
-            <button type="button" class="element__like"></button>
+            <button type="button" class="element__like"></button> 
           </div>
         </li>
         <li class="element">
-          <img class="element__image" src="./images/dombai.svg" alt="Photo 5">
+          <img class="element__image" src="./images/dombai.svg" alt="Фото 5">
           <div class="element__description">
             <h2 class="element__title">Добай</h2>
             <button type="button" class="element__like"></button>
           </div>
         </li>
         <li class="element">
-          <img class="element__image" src="./images/karachaevsk.png" alt="Photo 6">
+          <img class="element__image" src="./images/karachaevsk.png" alt="Фото 6">
           <div class="element__description">
             <h2 class="element__title">Карачаево-Черкесия</h2>
             <button type="button" class="element__like"></button>
@@ -68,14 +68,14 @@
         </li>
       </ul>
     </section>
-    <div class="popup_edit">
-      <div class="popup_edit__container">
-        <h2 class="popup_edit__title">Редактировать профиль</h2>
-        <button class="popup_edit__close" type="button"></button>
-        <form class="popup_edit__form" name="form">
-          <input type="text" class="popup_edit__input popup_edit__name" name="name" value="Жак-Ив Кусто" placeholder="Имя">
-          <input type="text" class="popup_edit__input popup_edit__description" name="description" value="Исследователь океана" placeholder="О себе">
-          <button class="popup_edit__save" type="submit">Сохранить</button>
+    <div class="popup">
+      <div class="popup__container">
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <button type="button" class="popup__close" ></button>
+        <form class="popup__form" name="form">
+          <input type="text" class="popup__input popup__input_type_name" name="name" value="Жак-Ив Кусто" placeholder="Имя">
+          <input type="text" class="popup__input popup__input_type_description" name="description" value="Исследователь океана" placeholder="О себе">
+          <button type="submit" class="popup__save">Сохранить</button>
         </form>
       </div>
     </div>
@@ -83,7 +83,5 @@
       <p class="footer__title">© 2020 Mesto Russia</p>
     </footer>
   </main>
-  <script src="./scripts/edit_profile.js"></script>
-  <script src="./scripts/like_card.js"></script>
 </body>
 </html>

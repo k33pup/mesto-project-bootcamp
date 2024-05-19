@@ -26,10 +26,11 @@
 @import url("../blocks/element/__like/element__like.css");
 @import url("../blocks/element/__like/_active/element__like_active.css");
 
-@import url("../blocks/popup_edit/popup_edit.css");
-@import url("../blocks/popup_edit/__container/popup_edit__container.css");
-@import url("../blocks/popup_edit/__close/popup_edit__close.css");
-@import url("../blocks/popup_edit/__title/popup_edit__title.css");
-@import url("../blocks/popup_edit/__form/popup_edit__form.css");
-@import url("../blocks/popup_edit/__input/popup_edit__input.css");
-@import url("../blocks/popup_edit/__save/popup_edit__save.css");
+@import url("../blocks/popup/popup.css");
+@import url("../blocks/popup/__container/popup__container.css");
+@import url("../blocks/popup/__close/popup__close.css");
+@import url("../blocks/popup/__title/popup__title.css");
+@import url("../blocks/popup/__form/popup__form.css");
+@import url("../blocks/popup/__input/popup__input.css");
+@import url("../blocks/popup/__save/popup__save.css");
+@import url("../blocks/popup/_opened/popup_opened.css");
